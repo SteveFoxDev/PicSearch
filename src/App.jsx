@@ -18,6 +18,9 @@ const handleSubmit = async (term) => {
 
   return (
     <div>
+      <div className='container'>
+      <h1 className='display-2'>PicSearch</h1>
+      </div>
       <SearchBar onSubmit={handleSubmit}/>
       <ImageList images={images}/>
     </div>
